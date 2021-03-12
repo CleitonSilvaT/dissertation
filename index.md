@@ -24,3 +24,9 @@ This webpage containing the data of the Empirical Study and Systematic Literatur
 - Tavares, Cleiton; Bigonha, Mariza; Figueiredo, Eduardo, Analyzing the Impact of Refactoring on Bad Smells (short paper). __Proceedings of the 34th Brazilian Symposium on Software Engineering (SBES)__, pages 97-101. Natal (online), Brazil, 2020. https://doi.org/10.1145/3422392.3422408. [Page Link](https://cleitonsilvat.github.io/sbes2020/)
 
 - Tavares, Cleiton; Bigonha, Mariza A. S.; Figueiredo, Eduardo, Quantifying the Effects of Refactorings on Bad Smells. __10th Workshop on Theses and Dissertations - Master Students (WTDSOFT)__. Natal (online), Brazil, 2020.
+
+
+#### Involved People
+- [Cleiton Tavares](http://labsoft.dcc.ufmg.br/doku.php?id=people:students:cleiton_silva) - cleitonsilvatavares@gmail.com - cleiton.silva@dcc.ufmg.br
+- [Mariza Bigonha](https://homepages.dcc.ufmg.br/~mariza/) - mariza@dcc.ufmg.br
+- [Eduardo Figueiredo](https://homepages.dcc.ufmg.br/~figueiredo/) - figueiredo@dcc.ufmg.br
