@@ -1,5 +1,5 @@
 
-This webpage containing the data of the Empirical Study and Systematic Literature Riview conduct.
+This webpage containing the data of the Empirical Study and Systematic Literature Review conduct.
 
 
 
@@ -80,70 +80,70 @@ This webpage containing the data of the Empirical Study and Systematic Literatur
 
 | Tool | Refactoring Tool Used | Bad Smell Tool Used | Reference |
 |:-----|:----------------------|:--------------------|:----------:|
-| RESYS | OSORE                | OCEAN               | [37]       |
-| MMRUC3 | Integrated          | Integrated          | [33]       |
-|        | Refactoring Miner   | Own Metric Developed | [7]      |
-|        | JDeodorant          | JDeodorant and DECOR | [35]      |
+| DCRA   | Integrated          | NiCad                | [1]      |
+| RESYS | OSORE                | OCEAN               | [2]       |
 |        | Ref-Finder          | Own Metric Developed | [3]      |
-| Methodbook | Integrated      | Integrated           | [5]      |
-| DCRA   | Integrated          | NiCad                | [13]      |
-|        | JDeodorant          | JDeodorant           | [9]      |
-| Extract Method Detector | Integrated | Integrated   | [23]      |
-|       | ARIES and JDeodorant | JDeodorant | [4]      |
-| CCShaper | Integrated          | CCFinder             | [18]      |
-|  | Ref-Detector               | Metrics to Detect Smell | [8] |
-| Liu's Approach | Integrated    | Integrated         | [21]      |
-| Tsantalis's Methodology  | Integrated  | Integrated | [42]      |
-| HIST   |                     | Integrated           | [30]      |
-| JMove    | Integrated      | Integrated             | [34]      |
+|        | JDeodorant          | JDeodorant and DECOR | [4]      |
+|        | JDeodorant          | JDeodorant           | [6]      |
+| Extract Method Detector | Integrated | Integrated   | [9]      |
+| Methodbook | Integrated      | Integrated           | [10]      |
+| MMRUC3 | Integrated          | Integrated          | [11]       |
+|       | ARIES and JDeodorant | JDeodorant           | [12]      |
+| CCShaper | Integrated          | CCFinder             | [13]      |
+|        | Refactoring Miner   | Own Metric Developed | [15]      |
+|  | Ref-Detector               | Metrics to Detect Smell | [16] |
+| Liu's Approach | Integrated    | Integrated         | [17]      |
+| Tsantalis's Methodology  | Integrated  | Integrated | [18]      |
+| HIST   |                     | Integrated           | [19]      |
+| JMove    | Integrated      | Integrated             | [20]      |
 
 
 #### List of Papers
 
 ##### Filtering Steps
 
-[13] A Duplicated Code Refactoring Advisor
+[1] A Duplicated Code Refactoring Advisor
 
-[37] An Approach for Semantically-Enriched Recommendation of Refactorings Based on the Incidence of Code Smells
+[2] An Approach for Semantically-Enriched Recommendation of Refactorings Based on the Incidence of Code Smells
 
 [3] An Experimental Investigation on the Innate Relationship Between Quality and Refactoring
 
-[35] Analysis of Code Smell to Quantify the Refactoring
+[4] Analysis of Code Smell to Quantify the Refactoring
 
-[10] Common Refactorings, a Dependency Graph and some Code Smells: An Empirical Study of Java OSS
+[5] Common Refactorings, a Dependency Graph and some Code Smells: An Empirical Study of Java OSS
 
-[9] Investigating the Evolution of Code Smells in Object-Oriented Systems
+[6] Investigating the Evolution of Code Smells in Object-Oriented Systems
 
-[17] Learning to Rank Extract Method Refactoring Suggestions for Long Methods
+[7] Learning to Rank Extract Method Refactoring Suggestions for Long Methods
 
-[32] Leveraging Code Smell Detection with Inter-smell Relations
+[8] Leveraging Code Smell Detection with Inter-smell Relations
 
-[23] Major Motivations for Extract Method Refactorings: Analysis Based on Interviews and Change Histories
+[9] Major Motivations for Extract Method Refactorings: Analysis Based on Interviews and Change Histories
 
-[5] Methodbook: Recommending Move Method Refactorings via Relational Topic Models
+[10] Methodbook: Recommending Move Method Refactorings via Relational Topic Models
 
-[33] MMRUC3: A Recommendation Approach of Move Method Refactoring Using Coupling, Cohesion, and Contextual Similarity to Enhance Software Design
+[11] MMRUC3: A Recommendation Approach of Move Method Refactoring Using Coupling, Cohesion, and Contextual Similarity to Enhance Software Design
 
-[4] Recommending Refactoring Operations in Large Software Systems
+[12] Recommending Refactoring Operations in Large Software Systems
 
-[18] Refactoring Support Based on Code Clone Analysis
+[13] Refactoring Support Based on Code Clone Analysis
 
-[24] Supporting Requirements to Code Traceability Through Refactoring
+[14] Supporting Requirements to Code Traceability Through Refactoring
 
-[7] Understanding the Impact of Refactoring on Smells: A Longitudinal Study of 23 Software Projects
+[15] Understanding the Impact of Refactoring on Smells: A Longitudinal Study of 23 Software Projects
 
 
 ##### Snowballing
 
-[8] Does Refactoring Improve Software Structural Quality? A Longitudinal Study of 25 Projects
+[16] Does Refactoring Improve Software Structural Quality? A Longitudinal Study of 25 Projects
 
-[21] Domino Effect: Move More Methods Once a Method is Moved
+[17] Domino Effect: Move More Methods Once a Method is Moved
 
-[42] Identification of Move Method Refactoring Opportunities
+[18] Identification of Move Method Refactoring Opportunities
 
-[30] Mining Version Histories for Detecting Code Smells
+[19] Mining Version Histories for Detecting Code Smells
 
-[34] Recommending Move Method Refactorings Using Dependency Sets
+[20] Recommending Move Method Refactorings Using Dependency Sets
 
 
 
