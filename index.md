@@ -1,5 +1,5 @@
 
-This webpage containing the data of the Empirical Study and Systematic Literature Review conduct.
+This webpage containing the data of the Empirical Study and Systematic Literature Review (SLR) conduct.
 
 
 
@@ -148,6 +148,75 @@ This webpage containing the data of the Empirical Study and Systematic Literatur
 
 
 ### Empirical Study
+
+
+#### Research Phases
+
+![Phases](img/Phases.png)
+
+
+#### Refactorings Applied
+
+
+| System            | Extract Class | Extract Method | Move Method | Replace Refactoring | Total |
+|:------------------|:-------------:|:--------------:|:-----------:|:-------------------:|:-----:|
+|Checkstyle-5.6     | 56            | 149            | 18          | 5                   | 228   |
+|Commons-codec      | 10            | 77             | 15          |                     | 102   |
+|Commons-io         | 5             | 45             | 3           | 2                   | 55    |
+|Commons-lang       | 31            | *              |             |                     | 31    |
+|Commons-logging    | 4             | 44             | *           | 1                   | 49    |
+|JHotDraw-7.5.1     | 58            | *              | 13          | *                   | 71    |
+|Quartz-1.8.3       | 26            | *              | 6           | 11                  | 43    |
+|Squirrel_sql-3.1.2 | 18            | 65             | 6           | *                   | 89    |
+|Total              | 208           | 380            | 61          | 19                  | 668   |
+
+* Replace Refactoring - Replace Type Code with State/Strategy and Replace Conditional with Polymorphism
+
+
+
+#### Bad Smells Detected by Tools
+
+
+| Abbreviation | Bad Smell              | T1 | T2 | T3 | T4 | T5 |
+|:-------------|:----------------------:|:--:|:--:|:--:|:--:|:--:|
+| DC           | Data Class             |    |    |    | *  | *  |
+| FE           | Feature Envy           |    |    | *  | *  |    |
+| LC           | Large Class            | *  |    |    |    |    |
+| ZC           | Lazy Class             | *  |    |    |    | *  |
+| LM           | Long Method            | *  | *  | *  |    |    |
+| LP           | Long Parameter List    | *  | *  |    |    |    |
+| MC           | Message Chains         | *  |    |    |    |    |
+| RB           | Refused Bequest        | *  |    |    | *  | *  |
+| SS           | Shotgun Surgery        |    |    |    | *  |    |
+| SG           | Speculative Generality | *  |    |    |    | *  |
+|              | Total                  | 7  | 2  | 2  | 4  | 4  |
+
+* T1: Decor, T2: Designite, T3: JDeodorant, T4: JSpIRIT, and T5: Organic
+
+
+#### Impacts Assessment
+
+![Steps](img/steps_ES.png)
+
+
+
+#### Files
+
+- [Selected Systems and Detected Bad Smells](https://drive.google.com/file/d/1kDDp6DkMEFnwQ_4uw7jjHF4QcwpLddLR/view?usp=sharing) - This link contain the original version and all refactored versions of the systems; and the Bad Smells detected by the five tools in the original and refactored version
+
+- [Applied Refactorings and Comparative Analysis](https://drive.google.com/file/d/1MgQc_HDjW72FxBwcQYeNpOh8AiABP4NP/view?usp=sharing) - This link contain all refactorings applied with the annotations in some ajusts make by Eclipse IDE and a summarization of the refactorings applied; and also the comparative analysis between original and refactored versions
+
+
+#### Bad Smells Introduced and Removed by Refactoring
+
+![Steps](img/overview.png)
+
+
+#### Result Contrast Empirical Study and SLR
+
+![Steps](img/contrast.png)
+
+
 
 
 ### Publications
